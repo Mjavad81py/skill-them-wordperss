@@ -2,10 +2,13 @@
 node_modules/
 vendor/
 
-# Build output and packaged releases
+# Build scratch space. Packaged releases live in release/ and ARE tracked, so the
+# theme and plugin zips can be downloaded straight from the repository.
+build/
 dist/
 *.zip
 !skill-themp-wordpress.zip
+!release/*.zip
 
 # Local config and environment
 .env
