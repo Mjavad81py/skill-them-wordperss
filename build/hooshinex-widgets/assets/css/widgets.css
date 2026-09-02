@@ -1,0 +1,444 @@
+/**
+ * Structural CSS only.
+ *
+ * Anything a designer might want to change belongs in an Elementor control, not here.
+ * This file only provides layout scaffolding that controls then customize.
+ */
+
+/* Feature Cards ----------------------------------------------------------- */
+
+.hooshinex-cards {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 24px;
+}
+
+.hooshinex-card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.hooshinex-card__icon {
+	display: inline-flex;
+	line-height: 1;
+}
+
+.hooshinex-card__icon svg {
+	display: block;
+}
+
+.hooshinex-card__title {
+	margin: 0;
+}
+
+.hooshinex-card__title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.hooshinex-card__desc {
+	margin: 0;
+}
+
+/* Post Loop --------------------------------------------------------------- */
+
+.hooshinex-loop {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 24px;
+}
+
+.hooshinex-loop__item {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.hooshinex-loop__media img {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.hooshinex-loop__body {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	padding: 1rem;
+}
+
+.hooshinex-loop__title {
+	margin: 0;
+}
+
+.hooshinex-loop__title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.hooshinex-loop__meta {
+	font-size: 0.875em;
+	opacity: 0.7;
+}
+
+.hooshinex-loop__excerpt {
+	margin: 0;
+}
+
+/* Product Grid ------------------------------------------------------------ */
+
+.hooshinex-products {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.hooshinex-product {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.hooshinex-product__media {
+	position: relative;
+	display: block;
+}
+
+.hooshinex-product__media img {
+	display: block;
+	width: 100%;
+	height: auto;
+	/* Reserve space to avoid layout shift while the image decodes. */
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+}
+
+.hooshinex-product__badge {
+	position: absolute;
+	inset-block-start: 0.5rem;
+	inset-inline-start: 0.5rem;
+	padding: 0.25rem 0.5rem;
+	font-size: 0.75rem;
+	line-height: 1;
+	border-radius: 3px;
+	background-color: currentColor;
+}
+
+.hooshinex-product__body {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 0.5rem;
+	padding: 1rem;
+}
+
+.hooshinex-product__title {
+	margin: 0;
+	font-size: 1rem;
+}
+
+.hooshinex-product__title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.hooshinex-product__cart {
+	margin-block-start: auto;
+}
+
+/* Editor-only notice ------------------------------------------------------ */
+
+.hooshinex-notice {
+	padding: 1rem;
+	border: 1px dashed currentColor;
+	border-radius: 4px;
+	opacity: 0.7;
+	text-align: center;
+}
+
+/* -------------------------------------------------------------------------
+ * Storefront widgets
+ *
+ * The Hooshinex theme already styles every `.hx-*` class these widgets output.
+ * Everything below is a low-specificity fallback (`:where()`) so the widgets stay
+ * presentable under a different theme without ever overriding Hooshinex itself.
+ * ---------------------------------------------------------------------- */
+
+.hooshinex-widget-notice {
+	padding: 1rem 1.25rem;
+	border: 1px dashed rgba( 0, 0, 0, 0.2 );
+	border-radius: 0.5rem;
+	color: #6b7280;
+	font-size: 0.875rem;
+	text-align: center;
+}
+
+:where( .hx-carousel ) {
+	position: relative;
+}
+
+:where( .hx-carousel-viewport ) {
+	overflow: hidden;
+}
+
+:where( .hx-carousel-track ) {
+	display: flex;
+	gap: 1.25rem;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+	padding-block-end: 0.25rem;
+}
+
+:where( .hx-carousel-track )::-webkit-scrollbar {
+	display: none;
+}
+
+:where( .hx-carousel-track ) > * {
+	flex: 0 0 clamp( 240px, 24%, 320px );
+	scroll-snap-align: start;
+}
+
+:where( .hx-carousel-track.is-dragging ) {
+	cursor: grabbing;
+	scroll-snap-type: none;
+}
+
+:where( .hx-carousel-nav ) {
+	position: absolute;
+	inset-block-start: 50%;
+	z-index: 2;
+	display: grid;
+	place-items: center;
+	inline-size: 2.5rem;
+	block-size: 2.5rem;
+	border: 1px solid rgba( 0, 0, 0, 0.08 );
+	border-radius: 50%;
+	background: #fff;
+	color: inherit;
+	cursor: pointer;
+	transform: translateY( -50% );
+}
+
+:where( .hx-carousel-nav )[ disabled ] {
+	opacity: 0.35;
+	cursor: default;
+}
+
+:where( .hx-carousel-nav.prev ) {
+	inset-inline-start: -0.75rem;
+}
+
+:where( .hx-carousel-nav.next ) {
+	inset-inline-end: -0.75rem;
+}
+
+:where( .hx-dots ) {
+	display: flex;
+	justify-content: center;
+	gap: 0.375rem;
+	margin-block-start: 1rem;
+}
+
+:where( .hx-dot ) {
+	inline-size: 0.5rem;
+	block-size: 0.5rem;
+	padding: 0;
+	border: 0;
+	border-radius: 999px;
+	background: rgba( 0, 0, 0, 0.18 );
+	cursor: pointer;
+	transition: inline-size 0.2s ease, background-color 0.2s ease;
+}
+
+:where( .hx-dot.is-active ) {
+	inline-size: 1.25rem;
+	background: currentColor;
+}
+
+:where( .hooshinex-category-grid ) {
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax( 150px, 1fr ) );
+	gap: 1rem;
+}
+
+:where( .hx-category-card ) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 1.25rem 0.75rem;
+	border: 1px solid rgba( 0, 0, 0, 0.06 );
+	border-radius: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+}
+
+:where( .hx-category-icon svg, .hx-category-icon img ) {
+	inline-size: 2rem;
+	block-size: 2rem;
+	object-fit: contain;
+}
+
+:where( .hx-twin-banners ) {
+	display: grid;
+	grid-template-columns: repeat( 2, minmax( 0, 1fr ) );
+	gap: 1.25rem;
+}
+
+:where( .hx-twin-banner ) {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	background: #1f2e63;
+	color: #fff;
+	text-decoration: none;
+}
+
+:where( .hx-twin-banner--gold ) {
+	background: #d39a3a;
+}
+
+:where( .hx-twin-text ) {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+:where( .hx-offer-banner ) {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+	padding: 2rem;
+	border-radius: 1rem;
+	background: #1f2e63;
+	color: #fff;
+}
+
+:where( .hx-countdown ) {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+:where( .hx-countdown-unit ) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-inline-size: 3rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	background: rgba( 255, 255, 255, 0.12 );
+}
+
+:where( .hx-spotlight-slide ) {
+	display: none;
+	gap: 1.5rem;
+}
+
+:where( .hx-spotlight-slide.is-active ) {
+	display: grid;
+	grid-template-columns: minmax( 0, 1.1fr ) minmax( 0, 1fr );
+}
+
+:where( .hx-spotlight-media ) {
+	position: relative;
+	overflow: hidden;
+	border-radius: 1rem;
+	aspect-ratio: 16 / 9;
+}
+
+:where( .hx-spotlight-media img ) {
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: cover;
+}
+
+:where( .hx-spotlight-thumbs ) {
+	display: flex;
+	gap: 0.75rem;
+	margin-block-start: 1rem;
+	overflow-x: auto;
+}
+
+:where( .hx-spotlight-thumb ) {
+	flex: 0 0 auto;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem;
+	border: 1px solid rgba( 0, 0, 0, 0.08 );
+	border-radius: 0.75rem;
+	background: transparent;
+	cursor: pointer;
+}
+
+:where( .hx-spotlight-thumb.is-active ) {
+	border-color: currentColor;
+}
+
+:where( .hx-question-card ) {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 1.25rem;
+	border: 1px solid rgba( 0, 0, 0, 0.06 );
+	border-radius: 0.75rem;
+}
+
+:where( .hx-seller ) {
+	display: grid;
+	grid-template-columns: minmax( 0, 1fr ) minmax( 0, 1fr );
+	gap: 2rem;
+	padding: 2.5rem;
+	border-radius: 1.25rem;
+	background: #1f2e63;
+	color: #fff;
+}
+
+:where( .hx-seller-perks ) {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+:where( .hx-seller-perks li ) {
+	display: flex;
+	gap: 0.75rem;
+}
+
+:where( .hooshinex-hero .hx-hero-inner ) {
+	display: grid;
+	grid-template-columns: minmax( 0, 1fr ) minmax( 0, 1fr );
+	gap: 2rem;
+	align-items: center;
+}
+
+:where( .hx-hero-stats ) {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	margin-block-start: 1.5rem;
+}
+
+@media ( max-width: 782px ) {
+	:where( .hx-twin-banners ),
+	:where( .hx-seller ),
+	:where( .hooshinex-hero .hx-hero-inner ),
+	:where( .hx-spotlight-slide.is-active ) {
+		grid-template-columns: minmax( 0, 1fr );
+	}
+}

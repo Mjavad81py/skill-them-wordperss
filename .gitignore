@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output and packaged releases
+dist/
+*.zip
+!skill-themp-wordpress.zip
+
+# Local config and environment
+.env
+.env.*
+wp-config-local.php
+*.local.php
+
+# Editors and OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs and caches
+*.log
+debug.log
+.cache/
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Compiled translations (regenerate with wp i18n make-mo)
+*.mo

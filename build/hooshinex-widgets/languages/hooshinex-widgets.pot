@@ -1,0 +1,881 @@
+# Copyright (C) 2026 Hooshinex Widgets
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hooshinex Widgets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-02 11:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Team: \n"
+"X-Domain: hooshinex-widgets\n"
+
+#: dynamic-tags/class-reading-time-tag.php:120
+msgid "%d min"
+msgid_plural "%d min"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamic-tags/class-reading-time-tag.php:128
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamic-tags/class-reading-time-tag.php:39
+msgid "Reading Time"
+msgstr ""
+
+#: dynamic-tags/class-reading-time-tag.php:70
+msgid "Words Per Minute"
+msgstr ""
+
+#: dynamic-tags/class-reading-time-tag.php:81
+msgid "Format"
+msgstr ""
+
+#: dynamic-tags/class-reading-time-tag.php:85
+msgid "5 min read"
+msgstr ""
+
+#: dynamic-tags/class-reading-time-tag.php:86
+msgid "5 min"
+msgstr ""
+
+#: dynamic-tags/class-reading-time-tag.php:87
+msgid "5"
+msgstr ""
+
+#: includes/class-plugin.php:110 includes/class-plugin.php:172
+msgid "Hooshinex"
+msgstr ""
+
+#: includes/class-plugin.php:247
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: includes/class-plugin.php:248 includes/class-plugin.php:264 includes/class-plugin.php:281
+msgid "Hooshinex Widgets"
+msgstr ""
+
+#: includes/class-plugin.php:249 includes/class-plugin.php:265
+msgid "Elementor"
+msgstr ""
+
+#: includes/class-plugin.php:263
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: includes/class-plugin.php:280
+msgid "\"%1$s\" requires PHP version %2$s or greater."
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:106 widgets/class-post-loop-widget.php:109 widgets/class-product-carousel-widget.php:105 widgets/class-product-grid-widget.php:110
+msgid "Source"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:110 widgets/class-product-carousel-widget.php:112 widgets/class-product-grid-widget.php:117
+msgid "Best Selling"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:111 widgets/class-product-carousel-widget.php:110
+msgid "Featured"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:112 widgets/class-product-carousel-widget.php:111 widgets/class-product-grid-widget.php:116
+msgid "On Sale"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:113
+msgid "Specific products"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:121 widgets/class-product-carousel-widget.php:131 widgets/class-product-carousel-widget.php:77 widgets/class-product-grid-widget.php:102 widgets/class-product-grid-widget.php:138
+msgid "Products"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:133
+msgid "Slides"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:145
+msgid "Slide Kicker"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:147
+msgid "پرفروش‌ترین‌ها"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:154 widgets/class-offer-banner-widget.php:120
+msgid "Button Text"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:156
+msgid "مشاهده و خرید"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:163 widgets/class-post-loop-widget.php:262 widgets/class-questions-widget.php:130
+msgid "Excerpt Words"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:176 widgets/class-hero-widget.php:247 widgets/class-offer-banner-widget.php:200 widgets/class-post-loop-widget.php:278 widgets/class-product-grid-widget.php:273 widgets/class-promo-banners-widget.php:183 widgets/class-section-heading-widget.php:131 widgets/class-seller-cta-widget.php:223
+msgid "Style"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:184
+msgid "Product Title Colour"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:203
+msgid "Image Ratio"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:334 widgets/class-product-carousel-widget.php:342
+msgid "WooCommerce is not active, so there are no products to show."
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:342 widgets/class-product-carousel-widget.php:351
+msgid "No products matched this query."
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:373
+msgid "تخفیف"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:38
+msgid "Amazing Product"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:409
+msgid "%s sales"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:432
+msgid "Choose a product"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:78
+msgid "Spotlight"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:86 widgets/class-category-grid-widget.php:84 widgets/class-product-carousel-widget.php:85 widgets/class-questions-widget.php:85 widgets/class-section-heading-widget.php:86 widgets/class-seller-cta-widget.php:107
+msgid "Accent Word"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:88
+msgid "محصول"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:95 widgets/class-category-grid-widget.php:93 widgets/class-feature-cards-widget.php:136 widgets/class-hero-widget.php:99 widgets/class-offer-banner-widget.php:97 widgets/class-post-loop-widget.php:135 widgets/class-product-carousel-widget.php:94 widgets/class-promo-banners-widget.php:110 widgets/class-questions-widget.php:94 widgets/class-section-heading-widget.php:97 widgets/class-seller-cta-widget.php:187 widgets/class-seller-cta-widget.php:98
+msgid "Title"
+msgstr ""
+
+#: widgets/class-amazing-product-widget.php:97
+msgid "شگفت‌انگیز"
+msgstr ""
+
+#: widgets/class-base-widget.php:89
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:104
+msgid "Taxonomy"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:114 widgets/class-post-loop-widget.php:119 widgets/class-questions-widget.php:119
+msgid "Items"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:125
+msgid "Hide Empty"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:135
+msgid "Show Count"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:145 widgets/class-feature-cards-widget.php:222 widgets/class-post-loop-widget.php:173 widgets/class-product-grid-widget.php:162
+msgid "Layout"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:149
+msgid "Carousel"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:150
+msgid "Grid"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:160
+msgid "Tiles"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:168 widgets/class-feature-cards-widget.php:230 widgets/class-post-loop-widget.php:181 widgets/class-product-grid-widget.php:170 widgets/class-promo-banners-widget.php:191
+msgid "Columns"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:188 widgets/class-feature-cards-widget.php:250 widgets/class-post-loop-widget.php:201 widgets/class-product-carousel-widget.php:225 widgets/class-product-grid-widget.php:192 widgets/class-promo-banners-widget.php:209
+msgid "Gap"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:207
+msgid "Icon Colour"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:218
+msgid "Label Colour"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:257
+msgid "That taxonomy does not exist on this site."
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:272
+msgid "No terms found for this taxonomy."
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:311
+msgid "%s مورد"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:36
+msgid "Category Grid"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:76
+msgid "Categories"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:86
+msgid "دسته‌بندی"
+msgstr ""
+
+#: widgets/class-category-grid-widget.php:95 widgets/class-product-carousel-widget.php:96 widgets/class-section-heading-widget.php:99
+msgid "محصولات"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:114 widgets/class-feature-cards-widget.php:179 widgets/class-product-carousel-widget.php:195 widgets/class-questions-widget.php:155
+msgid "Cards"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:124 widgets/class-promo-banners-widget.php:89 widgets/class-seller-cta-widget.php:175
+msgid "Icon"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:138
+msgid "Feature title"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:146 widgets/class-hero-widget.php:121 widgets/class-offer-banner-widget.php:110 widgets/class-promo-banners-widget.php:120 widgets/class-seller-cta-widget.php:118 widgets/class-seller-cta-widget.php:196
+msgid "Description"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:149
+msgid "Describe the feature in a sentence or two."
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:157 widgets/class-promo-banners-widget.php:139 widgets/class-section-heading-widget.php:109
+msgid "Link"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:168
+msgid "Accent Color"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:184
+msgid "Fast"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:185
+msgid "Flexible"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:186
+msgid "Reliable"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:194 widgets/class-product-grid-widget.php:252
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:276 widgets/class-hero-widget.php:297 widgets/class-section-heading-widget.php:169
+msgid "Alignment"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:280 widgets/class-hero-widget.php:301 widgets/class-section-heading-widget.php:173
+msgid "Start"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:284 widgets/class-hero-widget.php:305 widgets/class-section-heading-widget.php:177
+msgid "Center"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:288
+msgid "End"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:312
+msgid "Card"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:320 widgets/class-offer-banner-widget.php:216 widgets/class-seller-cta-widget.php:239
+msgid "Padding"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:332 widgets/class-offer-banner-widget.php:228
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:345
+msgid "Normal"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:351 widgets/class-feature-cards-widget.php:385
+msgid "Background"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:379
+msgid "Hover"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:404
+msgid "Lift on Hover"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:436
+msgid "Icon & Text"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:44
+msgid "Feature Cards"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:444
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:467
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:480 widgets/class-post-loop-widget.php:309 widgets/class-product-grid-widget.php:304
+msgid "Title Color"
+msgstr ""
+
+#: widgets/class-feature-cards-widget.php:499
+msgid "Description Color"
+msgstr ""
+
+#: widgets/class-hero-widget.php:101
+msgid "محصولات هوشمند"
+msgstr ""
+
+#: widgets/class-hero-widget.php:109
+msgid "Accent Line"
+msgstr ""
+
+#: widgets/class-hero-widget.php:111
+msgid "وردپرس و ووکامرس"
+msgstr ""
+
+#: widgets/class-hero-widget.php:124
+msgid "افزونه، قالب، اسکریپت و ابزارهای مبتنی بر هوش مصنوعی؛ همه در یک جا."
+msgstr ""
+
+#: widgets/class-hero-widget.php:132
+msgid "Search Field"
+msgstr ""
+
+#: widgets/class-hero-widget.php:142
+msgid "Search Placeholder"
+msgstr ""
+
+#: widgets/class-hero-widget.php:144
+msgid "جستجوی محصولات، افزونه‌ها، مقالات…"
+msgstr ""
+
+#: widgets/class-hero-widget.php:152
+msgid "Search Products Only"
+msgstr ""
+
+#: widgets/class-hero-widget.php:163
+msgid "Illustration"
+msgstr ""
+
+#: widgets/class-hero-widget.php:183 widgets/class-hero-widget.php:213
+msgid "Stats"
+msgstr ""
+
+#: widgets/class-hero-widget.php:193
+msgid "Number"
+msgstr ""
+
+#: widgets/class-hero-widget.php:203
+msgid "Label"
+msgstr ""
+
+#: widgets/class-hero-widget.php:205 widgets/class-hero-widget.php:220
+msgid "محصول اختصاصی"
+msgstr ""
+
+#: widgets/class-hero-widget.php:224
+msgid "عضو تیم"
+msgstr ""
+
+#: widgets/class-hero-widget.php:228
+msgid "پشتیبانی"
+msgstr ""
+
+#: widgets/class-hero-widget.php:255 widgets/class-offer-banner-widget.php:240 widgets/class-section-heading-widget.php:150 widgets/class-seller-cta-widget.php:251
+msgid "Title Colour"
+msgstr ""
+
+#: widgets/class-hero-widget.php:266 widgets/class-section-heading-widget.php:139
+msgid "Accent Colour"
+msgstr ""
+
+#: widgets/class-hero-widget.php:285
+msgid "Description Colour"
+msgstr ""
+
+#: widgets/class-hero-widget.php:351 widgets/class-hero-widget.php:358
+msgid "Search"
+msgstr ""
+
+#: widgets/class-hero-widget.php:40
+msgid "Hero"
+msgstr ""
+
+#: widgets/class-hero-widget.php:91 widgets/class-offer-banner-widget.php:80 widgets/class-seller-cta-widget.php:81
+msgid "Content"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:113
+msgid "فرصت محدود است؛ محصول مورد نظرت را با بهترین قیمت بردار."
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:122
+msgid "مشاهده تخفیف‌ها"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:129
+msgid "Button Link"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:139
+msgid "Countdown"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:147
+msgid "Deadline"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:151
+msgid "No countdown"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:152
+msgid "Fixed date"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:153
+msgid "Next WooCommerce sale end"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:161 widgets/class-post-loop-widget.php:134
+msgid "Date"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:171
+msgid "Labels"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:179
+msgid "روز"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:180
+msgid "ساعت"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:181
+msgid "دقیقه"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:182
+msgid "ثانیه"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:40
+msgid "Offer Banner"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:88
+msgid "Badge"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:90
+msgid "پیشنهاد شگفت‌انگیز"
+msgstr ""
+
+#: widgets/class-offer-banner-widget.php:99
+msgid "تا ۲۰٪ تخفیف روی محصولات منتخب"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:101
+msgid "Query"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:130
+msgid "Order By"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:136
+msgid "Menu Order"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:137
+msgid "Comment Count"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:138
+msgid "Random"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:146
+msgid "Order"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:150
+msgid "Descending"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:151
+msgid "Ascending"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:159
+msgid "Exclude Current Post"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:223
+msgid "Show Image"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:242
+msgid "Show Date"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:252
+msgid "Show Excerpt"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:286
+msgid "Item Background"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:297
+msgid "Item Padding"
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:386
+msgid "No items match this query. Adjust the Query settings."
+msgstr ""
+
+#: widgets/class-post-loop-widget.php:41
+msgid "Post Loop"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:109
+msgid "Latest"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:120 widgets/class-product-grid-widget.php:126
+msgid "Category"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:142
+msgid "Arrows"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:152
+msgid "Dots"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:162 widgets/class-questions-widget.php:141
+msgid "Autoplay Delay (ms)"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:168
+msgid "Zero disables autoplay. Autoplay always pauses on hover and is skipped for visitors who prefer reduced motion."
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:175
+msgid "Header Link"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:183
+msgid "Header Link Label"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:185 widgets/class-promo-banners-widget.php:132 widgets/class-section-heading-widget.php:121
+msgid "مشاهده همه"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:203 widgets/class-questions-widget.php:163
+msgid "Card Width"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:368 widgets/class-questions-widget.php:230
+msgid "Previous"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:37
+msgid "Product Carousel"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:397 widgets/class-questions-widget.php:272
+msgid "Next"
+msgstr ""
+
+#: widgets/class-product-carousel-widget.php:87 widgets/class-section-heading-widget.php:88
+msgid "جدیدترین"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:114
+msgid "Recent Products"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:115
+msgid "Featured Products"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:118
+msgid "By Category"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:149
+msgid "Hide Out of Stock"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:222
+msgid "Show Rating"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:232
+msgid "Show Price"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:242
+msgid "Show Add to Cart"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:262
+msgid "Keep product titles below the page H1 in the heading hierarchy."
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:281
+msgid "Card Background"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:292
+msgid "Card Padding"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:323
+msgid "Price Color"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:42
+msgid "Product Grid"
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:446
+msgid "WooCommerce is not active. Activate it to use this widget."
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:459
+msgid "No products match this query."
+msgstr ""
+
+#: widgets/class-product-grid-widget.php:499
+msgid "Sale"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:101 widgets/class-seller-cta-widget.php:89
+msgid "Kicker"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:103
+msgid "دسته‌بندی ویژه"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:112 widgets/class-promo-banners-widget.php:167
+msgid "افزونه وردپرس"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:123
+msgid "محصولات آماده دانلود با پشتیبانی و بروزرسانی دائمی"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:130
+msgid "CTA Text"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:148
+msgid "Variant"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:152
+msgid "Navy"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:153
+msgid "Gold"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:171
+msgid "اسکریپت PHP"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:39
+msgid "Promo Banners"
+msgstr ""
+
+#: widgets/class-promo-banners-widget.php:161 widgets/class-promo-banners-widget.php:79
+msgid "Banners"
+msgstr ""
+
+#: widgets/class-questions-widget.php:105
+msgid "Comments From"
+msgstr ""
+
+#: widgets/class-questions-widget.php:109
+msgid "Anywhere"
+msgstr ""
+
+#: widgets/class-questions-widget.php:110
+msgid "Products only"
+msgstr ""
+
+#: widgets/class-questions-widget.php:111
+msgid "Blog posts only"
+msgstr ""
+
+#: widgets/class-questions-widget.php:181
+msgid "Text Colour"
+msgstr ""
+
+#: widgets/class-questions-widget.php:216
+msgid "No approved comments yet."
+msgstr ""
+
+#: widgets/class-questions-widget.php:249
+msgid "%s ago"
+msgstr ""
+
+#: widgets/class-questions-widget.php:37
+msgid "Latest Questions"
+msgstr ""
+
+#: widgets/class-questions-widget.php:77
+msgid "Questions"
+msgstr ""
+
+#: widgets/class-questions-widget.php:87
+msgid "آخرین"
+msgstr ""
+
+#: widgets/class-questions-widget.php:96
+msgid "پرسش‌ها"
+msgstr ""
+
+#: widgets/class-section-heading-widget.php:119
+msgid "Link Label"
+msgstr ""
+
+#: widgets/class-section-heading-widget.php:181
+msgid "Space Between"
+msgstr ""
+
+#: widgets/class-section-heading-widget.php:38
+msgid "Section Heading"
+msgstr ""
+
+#: widgets/class-section-heading-widget.php:78
+msgid "Heading"
+msgstr ""
+
+#: widgets/class-section-heading-widget.php:89
+msgid "Shown in the gold accent colour before the title."
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:100
+msgid "فروشنده"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:109
+msgid "شوید"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:121
+msgid "محصول خود را منتشر کنید و از فروش آن درآمد کسب کنید. ثبت‌نام رایگان است."
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:128
+msgid "Primary Button"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:130
+msgid "شروع همکاری"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:138
+msgid "Primary Link"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:146
+msgid "Secondary Button"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:148
+msgid "مشاوره رایگان"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:155
+msgid "Secondary Link"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:165
+msgid "Selling Points"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:189 widgets/class-seller-cta-widget.php:211
+msgid "درآمد پایدار"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:199
+msgid "تسویه حساب دوره‌ای و شفاف برای همه فروش‌ها"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:206
+msgid "Points"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:212
+msgid "مخاطب آماده"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:213
+msgid "پشتیبانی فنی"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:41
+msgid "Seller CTA"
+msgstr ""
+
+#: widgets/class-seller-cta-widget.php:91
+msgid "همکاری با ما"
+msgstr ""
